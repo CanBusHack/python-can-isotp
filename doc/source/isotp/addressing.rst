@@ -138,8 +138,8 @@ Mixed addressing (29 bits) is a mix of normal fixed addressing and extended addr
 
 A message arbitration ID sent in 29 bits mixed addressing is encoded like the following (with <TA>=Target Address and <SA>=Source Address) 
 
-   - 1-to-1 communication (target_address_type = Physical) :  0x18CE<TA><SA>
-   - 1-to-n communication (target_address_type = Functional) :  0x18CD<TA><SA>
+   - 1-to-1 communication (target_address_type = Physical) :  0x18CA<TA><SA>
+   - 1-to-n communication (target_address_type = Functional) :  0x18CB<TA><SA>
 
 Condition to receive a message (discarded if not met): 
  - Message Target Address must match receiver ``source_address``
